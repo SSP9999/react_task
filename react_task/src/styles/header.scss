@@ -1,0 +1,46 @@
+*{
+    background-color:rgba(32,33,35,255);
+    color: aliceblue;
+    margin: 0.1rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Description{
+    display: flex;
+    .moon1{
+        width: 9%;
+        height: 20%;
+    }
+    p{
+        display: flex;
+        font-size: 1.5rem;
+        .temp{
+            font-size: 4rem;
+            font-weight: 500;
+           
+        }
+        .fahrenheit{
+            color:gray;
+            font-weight: 200;
+         
+        }
+    }
+    div{
+        .listItems{
+            list-style-type: none;
+            li{
+                color:gray;
+                font-weight: 200;
+                font-size: 1.1rem;
+                opacity: 72%;
+             
+            } 
+        }
+
+    }
+}
+
+
+
+

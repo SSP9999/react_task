@@ -1,0 +1,39 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+}
+
+.days{
+ 
+
+    .dailyReport{
+        text-align: center;
+        border: 1px solid grey;
+       
+        .day{
+            font-size: 1rem;
+        }
+        .daymoon{
+            width: 76%;
+        }
+        
+        .emptyMoon{
+            width: 51%;
+            margin-left: 1rem;
+        }
+        .singleMoon{
+            height: 6rem;
+        }
+        .dayTemp{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .dailyReport:hover{
+        transform: scale(1.2);
+        transition: 1s;
+    }
+}
+
+
